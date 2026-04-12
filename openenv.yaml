@@ -1,0 +1,16 @@
+name: cognitive-code-assistant
+version: 1.0
+entry: inference.py
+
+description: Cognitive developer assistant for debugging workflows
+
+tasks:
+  - easy
+  - medium
+  - hard
+
+actions:
+  - hint
+  - restore_context
+  - simplify
+  - explain_error
